@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Summary</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<a class="navbar-brand" href="index.html">Home</a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+        <a class="nav-link" href="index.html">Summary <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="comparisons.html">Comparisons</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="data.html">Data</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="temperature.html">Temperature</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="humidity.html">Humidity</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="cloudiness.html">Cloudiness</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="windspeed.html">Windspeed</a>
+    </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+</div>
+</nav>
+
+<div class="jumbotron m-5">
+    <h1 class="display-4">Weather Analysis Project</h1>
+    <hr class="my-4">
+    <h2 class="display-6">Summary</h2>
+    <br>
+    <p>The purpose of this project was to analyze the effect of geographical latitude on weather.
+        Our dataset consisted of geographical location and weather data for over 500 cities worldwide, which
+        we obtained from the OpenWeatherMap API. After assembling the dataset, we used Pandas and Matplotlib to plot 
+        city latitude versus various weather components. The components we focused on were temperature, cloudiness, wind speed, 
+        and humidity. 
+    </p>
+    <p>
+        We also conducted a correlation analysis to determine the direction and strength of the correlations we found. 
+        This site provides the source data and visualizations created for this project, as well as descriptions of correlations 
+        that we discovered.
+    </p>
+</div>
+
+</body>
+</html>
