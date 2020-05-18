@@ -53,15 +53,46 @@
 <div class="jumbotron m-5">
     <h1 class="display-4">Latitude vs. Wind Speed</h1>
     <hr class="my-4">
+    <div class="row ml-5">
+        <h2>Scatter Plot - Northern and Southern Hemispheres</h2>
+    </div>
     <div class="row">
         <div class="col-5">
-            <img class="mt-3" src="Images/Lat_vs_WindSpeed.png" alt="Latitude vs. Wind Speed">
+            <img class="mt-3 ml-5" src="Images/Lat_vs_WindSpeed.png" alt="Latitude vs. Wind Speed">
         </div>
-        <div class="col-6 mt-3">
+        <div class="col-6 mt-3 mr-3">
             <p>Based on the plot, wind speed tends to vary greatly at all latitudes. There does
                 not appear to be a relationship between wind speed and latitude. At the time of
                 data collection, wind speed tended to be lower than 20 mph in the majority of cities
                 in the dataset.
+            </p>
+        </div>
+    </div>
+    <br><br>
+    <div class="row ml-5">
+        <h2>Linear Regression - Northern Hemisphere</h2>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <img class="mt-3 ml-5" src="Images/North_Lat_vs_WindSpeed_LinRegress.png" alt="Latitude vs Wind Speed Linear Regression">
+        </div>
+        <div class="col-6 mt-3 mr-3">
+            <p>According to the linear regression analysis, there is no correlation between latitude 
+                and wind speed in the northern hemisphere. The r-squared value is 0.0008.
+            </p>
+        </div>
+    </div>
+    <br><br>
+    <div class="row ml-5">
+        <h2>Linear Regression - Southern Hemisphere</h2>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <img class="mt-3 ml-5" src="Images/South_Lat_vs_WindSpeed_LinRegress.png" alt="Latitude vs Wind Speed Linear Regression">
+        </div>
+        <div class="col-6 mt-3 mr-3">
+            <p>Similarly, there is no correlation between latitude and wind speed in the southern 
+                hemisphere. The r-squared value is 0.008.
             </p>
         </div>
     </div>

@@ -53,14 +53,45 @@
 <div class="jumbotron m-5">
     <h1 class="display-4">Latitude vs. Humidity</h1>
     <hr class="my-4">
+    <div class="row ml-5">
+        <h2>Scatter Plot - Northern and Southern Hemispheres</h2>
+    </div>
     <div class="row">
         <div class="col-5">
-            <img class="mt-3" src="Images/Lat_vs_Humidity.png" alt="Latitude vs. Humidity">
+            <img class="mt-3 ml-5" src="Images/Lat_vs_Humidity.png" alt="Latitude vs. Humidity">
         </div>
-        <div class="col-6 mt-3">
+        <div class="col-6 mt-3 ml-3">
             <p>According to the plot, humidity varies greatly at most latitudes. It appears that locations
                 near the equator (between -10° S and 10° N) have higher levels of humidity. However, there
                 is not enough evidence to determine whether there is a correlation between latitude and humidity.
+            </p>
+        </div>
+    </div>
+    <br><br>
+    <div class="row ml-5">
+        <h2>Linear Regression - Northern Hemisphere</h2>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <img class="mt-3 ml-5" src="Images/North_Lat_vs_Humidity_LinRegress.png" alt="Latitude vs Humidity Linear Regression">
+        </div>
+        <div class="col-6 mt-3 mr-3">
+            <p>Based on the linear regression analysis, there is no correlation between latitude and humidity in the 
+                northern hemisphere. The r-squared value is 0.005.
+            </p>
+        </div>
+    </div>
+    <br><br>
+    <div class="row ml-5">
+        <h2>Linear Regression - Southern Hemisphere</h2>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <img class="mt-3 ml-5" src="Images/South_Lat_vs_Temp_LinRegress.png" alt="Latitude vs Humidity Linear Regression">
+        </div>
+        <div class="col-6 mt-3 mr-3">
+            <p>According to the linear regression plot, there is no correlation between latitude and humidity in the 
+                southern hemisphere. The r-squared value is 0.03.
             </p>
         </div>
     </div>

@@ -53,14 +53,44 @@
 <div class="jumbotron m-5">
     <h1 class="display-4">Latitude vs. Temperature</h1>
     <hr class="my-4">
+    <div class="row ml-5">
+        <h2>Scatter Plot - Northern and Southern Hemispheres</h2>
+    </div>
     <div class="row">
         <div class="col-5">
-            <img class="mt-3" src="Images/Lat_vs_Temp.png" alt="Latitude vs. Temperature">
+            <img class="mt-3 ml-5" src="Images/Lat_vs_Temp.png" alt="Latitude vs. Temperature">
         </div>
-        <div class="col-6 mt-3">
+        <div class="col-6 mt-3 mr-3">
             <p>This plot confirms the commonly known fact that temperature is significantly warmer in areas closer to the equator.
-                At the time that this data was collected, the southern hemisphere was experiencing warmer temperatures than the northern 
-                hemisphere, due to the Earth's tilt.
+                At the time that this data was collected, the southern and northern hemispheres were experiencing similar temperatures.
+            </p>
+        </div>
+    </div>
+    <br><br>
+    <div class="row ml-5">
+        <h2>Linear Regression - Northern Hemisphere</h2>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <img class="mt-3 ml-5" src="Images/North_Lat_vs_Temp_LinRegress.png" alt="Latitude vs Temperature Linear Regression">
+        </div>
+        <div class="col-6 mt-3 mr-3">
+            <p>The linear regression plot demonstrates a strong inverse correlation between city latitude 
+                and temperature in the northern hemisphere. The r-squared value is 0.73.
+            </p>
+        </div>
+    </div>
+    <br><br>
+    <div class="row ml-5">
+        <h2>Linear Regression - Southern Hemisphere</h2>
+    </div>
+    <div class="row">
+        <div class="col-5">
+            <img class="mt-3 ml-5" src="Images/South_Lat_vs_Temp_LinRegress.png" alt="Latitude vs Temperature Linear Regression">
+        </div>
+        <div class="col-6 mt-3 mr-3">
+            <p>Similarly, there is a strong inverse correlation between city latitude 
+                and temperature in the southern hemisphere as well. The r-squared value is 0.61.
             </p>
         </div>
     </div>
